@@ -15,6 +15,10 @@ Veri seti, çeşitli biyometrik ölçümler ve hastalık durumu (HastalikDurumu)
 - **Age**: Yaş (years) (numeric)
 - **HastalikDurumu**: Diyabet hastalığı durumu (0: Hasta değil, 1: Hasta) (nominal)
 
+## Veri Setini Ayırma Yöntemi
+
+Veri seti, %70 eğitim ve %30 test veri seti olarak ayrılmıştır. Bu ayırma işlemi rastgele bir şekilde yapılmıştır. Bunun nedeni, rastgele ayırmanın veri setindeki örneklerin homojen bir şekilde eğitim ve test setlerine dağıtılmasını sağlamasıdır. Bu sayede, modelin her iki set için de genelleme yapabilme yeteneği artırılmış olur.
+
 ## Kullanılan Algoritmalar
 
 ### J48 (Decision Tree)
