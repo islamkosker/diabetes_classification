@@ -57,7 +57,7 @@ SMO, Support Vector Machine (SVM) algoritmasının bir uygulamasıdır. Doğrusa
 
 ## Nasıl Çalıştırılır
 
-1. Weka'yı indirin ve yükleyin: [Weka İndir](https://www.cs.waikato.ac.nz/ml/weka/downloading.html)
+1. Weka'yı indirin ve yükleyin: [Weka İndir](https://sourceforge.net/projects/weka/)
 2. Pyton kodunu çalıştırarak mevcut veri setini ayrıştırabilirsiniz. 
    (gerekli sanal oratamı oluşturmak için: python -m venv venv & pip install -r requirements.txt)
 3. Weka'yı başlatın ve "Explorer" moduna geçin.
